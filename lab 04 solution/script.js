@@ -23,33 +23,31 @@ function createBox(){
                  div.addEventListenr('click', function(){
                     color();
                     div.addEventListener('dblclick', function(){
-                        disappear();
-
-                    });
+                        disappear()
+                    })
                  });
-              });
+              }
 }
 
         
 
-function hoover (){
-    mouseenter=div.innerText(id);
-    mouseleave=div.disappear(id);
+function hoover(){
+    mouseenter=
+    mouseleave=
 }
 
+rainbow= [ blue, purple, red, yellow, green, orange, ]
 
+function color(){
+    background-color = rainbow[0]
+}
 
 function disappear (){
     if (boxNumber % 2 === 0){
-        remove(this++1) {
-            if 
-        }
 
     } else {
-        remove (this--1){
 
-        }
-     }
+    }
 }
  //      for (var i = 0; i < square.length; i++){
           
@@ -59,19 +57,6 @@ function disappear (){
         //          box.innerText=" box ";
 }
 
-
-rainbow= [ blue, purple, red, yellow, green, orange, ]
-
-function color(){
-    background-color= rainbow[0]
-}
-
-var rainbowIndv= rainbow[0]
-
-rainbowIndv= (i = 0 ; i > rainbow.length; i++){
-    background-color: rainbow[i];
-
-} 
 
 
 
