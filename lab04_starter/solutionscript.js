@@ -1,19 +1,6 @@
 
 var colors = ['red', 'blue,', 'green', 'cyan' , 'yellow'];
-//          var boxNumber = square.length;
-//          sq.id= 'boxNumber';
-//          sq.innerText= boxNumber;
-//                sq.addEventListener('mouseenter', function(){
-//                    hoover();
-//                sq.addEventListenr('click', function(){
-//                     color();
-//                sq.addEventListener('dblclick', function(){
-//                         disappear();
 
-//                     });
-//                  });
-//               });
-// }
 document.addEventListener('DOMContentLoaded', function() {
         var btn = document.createElement("button");
         btn.innerText="Add Square";
@@ -78,53 +65,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }
 });
-
-//addSquare = my createBox
-
-// document.body.appendChild(btn);
-       
-// function hoover (){
-//     mouseenter=div.innerText(id);
-//     mouseleave=div.disappear(id);
-// }
-
-// function disappear (){
-//     if (boxNumber % 2 === 0){
-//         remove(this++1) {
-//             if 
-//         }
-
-//     } else {
-//         remove (this--1){
-
-//         }
-//      }
-// }
-// //    for (var i = 0; i < square.length; i++){
-          
-// //    text"No More Squares!"       
-              
-// //               var box = Square[0];
-// //                  box.innerText=" box ";
-// }
-
-// rainbow= [ blue, purple, red, yellow, green, orange, ]
-
-// function color(){
-//     background-color= rainbow[0]
-// }
-
-// var rainbowIndv= rainbow[0]
-
-// rainbowIndv= (i = 0 ; i > rainbow.length; i++){
-//     background-color: rainbow[i];
-
-// } 
-
-// //div id=clicks
-// //var clicks= number of times btn was clicked before 
-        
-// // btn.addEventListner('click', function(){
-
-// //})
 
